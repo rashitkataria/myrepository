@@ -1,0 +1,15 @@
+<html>
+<title>Employee Detail</title>
+<head>
+<h1>Please find below epmloyee details</h1>
+</head>
+<body>
+{% for entry in detail_data%}
+{{entry.f_name}}</t> 
+{{entry.l_name}}</t>
+{{entry.email}}</t>
+{{entry.age}}</t>
+</br></br>
+{% endfor %}
+</body>
+</html>
